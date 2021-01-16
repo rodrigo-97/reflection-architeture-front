@@ -1,6 +1,6 @@
 <template>
   <transition name="home">
-    <nav class="panel bg-card">
+    <nav class="panel  ">
       <p class="panel-heading">Personagens</p>
       <div class="panel-block columns">
         <div class="column is-8">

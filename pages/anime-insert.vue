@@ -1,6 +1,6 @@
 <template>
   <form class="columns" @submit="submit()">
-    <div class="panel column is-6 bg-card ml-5">
+    <div class="panel column is-6   ml-5">
       <div class="panel-heading">Cadastro de Anime</div>
       <div class="panel-block columns">
         <div class="main column is-12">
