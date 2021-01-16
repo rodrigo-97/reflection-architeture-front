@@ -15,8 +15,8 @@
               <td>Attack on Titan</td>
               <td>60</td>
               <td>
-                <b-button type="is-danger">Excluir</b-button>
                 <b-button type="is-primary">Alterar</b-button>
+                <b-button type="is-danger">Excluir</b-button>
               </td>
             </tr>
             <tr>
