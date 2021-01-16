@@ -1,8 +1,15 @@
 <template>
   <transition name="home">
-    <div class="section">
-      <div class="columns">
-        <div class="column is-6">
+    <nav class="panel bg-card">
+      <p class="panel-heading">Animes</p>
+      <div class="panel-block columns">
+        <div class="column is-8">
+          <div class="d-flex justify-end">
+            <b-button type="is-success" tag="router-link" to="/anime-insert" icon-left="plus-circle" size="lg"
+              >Adicionar</b-button
+            >
+            <hr>
+          </div>
           <table style="width: 100%">
             <tr>
               <th>#</th>
@@ -15,8 +22,12 @@
               <td>Attack on Titan</td>
               <td>60</td>
               <td>
-                <b-button type="is-primary">Alterar</b-button>
-                <b-button type="is-danger">Excluir</b-button>
+                <b-button type="is-primary" icon-left="pencil" size="lg"
+                  >Alterar</b-button
+                >
+                <b-button type="is-danger" icon-left="delete" size="lg"
+                  >Excluir</b-button
+                >
               </td>
             </tr>
             <tr>
@@ -27,6 +38,6 @@
           </table>
         </div>
       </div>
-    </div>
+    </nav>
   </transition>
 </template>

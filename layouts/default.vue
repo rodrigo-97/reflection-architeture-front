@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar header has-shadow is-primary"
+      class="navbar header has-shadow is-dark"
       role="navigation"
       aria-label="main navigation"
     >
@@ -25,7 +25,7 @@
       </div>
     </nav>
 
-    <section class="main-content columns">
+    <section class="main-content columns is-dark">
       <aside class="column is-2 section">
         <p class="menu-label is-hidden-touch">
           Menu
@@ -45,7 +45,7 @@
         </ul>
       </aside>
 
-      <div class="container column is-10">
+      <div class="container column is-10 bg">
         <nuxt />
       </div>
     </section>
@@ -64,7 +64,7 @@ export default {
         },
         {
           title: 'Personagens',
-          icon: 'book',
+          icon: 'ninja',
           to: { name: 'characters' }
         }
       ]
@@ -72,3 +72,11 @@ export default {
   }
 }
 </script>
+
+<style>
+.bg{
+  height: 100vh;
+  overflow: auto;
+  background-color: #363636;
+}
+</style>
