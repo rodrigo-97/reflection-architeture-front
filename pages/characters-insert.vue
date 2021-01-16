@@ -6,7 +6,7 @@
         <div class="main column is-12">
           <b-field label="Anime" :type="anime.type" :message="anime.message">
             <b-select @blur="validateAnime" placeholder="Selecione um character" v-model="character.anime">
-              <option value="0" disable>Selecione um anime</option>
+              <option value="" disable selected>Selecione um anime</option>
               <option
                 v-for="anime in animes"
                 :value="anime.id"
@@ -117,7 +117,7 @@ export default {
     validateAge(age) {
       if (age.match(/^[-+]?[0-9]+$/)) {
         this.ageInput.type = 'is-success'
-        this.ageInput.message = 'Você parece bom em cadastrar characters 😲'
+        this.ageInput.message = 'Você parece bom em cadastrar personagens 😲'
         this.ageInput.isOk = true
         return true
       } else {
