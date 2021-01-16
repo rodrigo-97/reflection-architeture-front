@@ -25,7 +25,7 @@
       </div>
     </nav>
 
-    <section class="main-content columns is-dark">
+    <section class="main-content columns">
       <aside class="column is-2 section">
         <p class="menu-label is-hidden-touch">
           Menu
@@ -72,11 +72,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.bg{
-  height: 100vh;
-  overflow: auto;
-  background-color: #363636;
-}
-</style>
